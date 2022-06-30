@@ -2,7 +2,6 @@
 // Посчитайте, сколько чисел больше 0 ввёл пользователь.
 
 Console.Write("Enter your number, please: ");
-
 int[] array = InitArray();
 int count = CountPositiveNumbers();
 Console.WriteLine($"Number of numbers greater then zero is {count}");
